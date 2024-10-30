@@ -183,7 +183,7 @@ app.layout = dbc.Container(
 
             dbc.Col([
                 html.Div([
-                    html.H5(children="Evolução COVID-19"),
+                    html.H5(children="Evolução COVID-19 e Relatório de Mobilidade"),
                     dbc.Button("BRASIL", color="info", id="botao-localizacao", size="lg")
                 ], style={"background-color": "#F4FBF9", "margin": "-25px", "margin-left": "20px"}),
 
